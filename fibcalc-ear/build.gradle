@@ -6,6 +6,8 @@ dependencies{
 	deploy project(path: ':fibcalc-war' ,configuration: 'archives')
 	earlib project (':fibcalc-core')
 	earlib project (':fibcalc-api')
+	earlib project (':fibcalc-lib')
+	
 	}
 	
 ear{
